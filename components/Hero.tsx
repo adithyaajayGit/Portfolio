@@ -24,7 +24,9 @@ const Hero = () => {
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
                 words="Adithya Ajay MEARN Stack Developer abcdfdusijkakkak"
                 />
-                <p className=''></p>
+                <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                    Hi, I&apos;m Adithya Ajay, a MERN Stack Developer based in kerala
+                </p>
                 </div>
             </div>
             </div>
