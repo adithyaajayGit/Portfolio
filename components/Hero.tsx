@@ -1,6 +1,8 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import MagicButton from './ui/Magic Button'
+import { FaLocationArrow } from 'react-icons/fa'
 
 
 
@@ -27,6 +29,13 @@ const Hero = () => {
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                     Hi, I&apos;m Adithya Ajay, a MERN Stack Developer based in kerala
                 </p>
+                <a href="#about">
+                    <MagicButton
+                    title="My Projects"
+                    icon={<FaLocationArrow/>}
+                    position='right'
+                    />
+                </a>
                 </div>
             </div>
             </div>
