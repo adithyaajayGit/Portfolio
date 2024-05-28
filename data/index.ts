@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "flexible timings",
-      description: "I'm very flexible with time zone communications",
+      title: "I'm very flexible with time zone communications",
+      description: "",
       className: "col-span-1 row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",

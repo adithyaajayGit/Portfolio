@@ -67,7 +67,7 @@ export const BentoGridItem = ({
 backgroundColor:' linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 26%, rgba(0,212,255,1) 100%)',
       }}
     >
-      <div className={`${id === 6} && 'flex justify-center h-full' `}>
+      <div className={`${id === 6 && 'flex justify-center'} h-full `}>
         <div className="w-full h-full absolute">
           { img && (
               <img
@@ -111,7 +111,7 @@ backgroundColor:' linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 2
        {id === 3 && (
         <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
           <div className="flex flex-col gap-3 lg:gap-8">
-          {['Angular', 'React.js', 'Node.js' ]
+          {['React.js', 'Angular', 'JavaScript' ]
           .map((item)=>(
             <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] ">
               {item}
@@ -122,7 +122,7 @@ backgroundColor:' linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 2
           <div className="flex flex-col gap-3 lg:gap-8">
           <span className="py-4 rounded-lg text-center bg-[#10132E]"/>
 
-          {['MongoDB', 'Express.js', 'JavaScript']
+          {['Node.js', 'Express.js', 'MongoDB']
           .map((item)=>(
             <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E] ">
               {item}
