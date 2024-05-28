@@ -91,7 +91,7 @@ backgroundColor:' linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 2
         <div>
           {id === 6 && (
             <BackgroundGradientAnimation>
-          <div className="absolute z-50 flex items-center justify-center text-white font-bold"/>
+          {/* <div className="absolute z-50 flex items-center justify-center text-white font-bold"/> */}
 
             </BackgroundGradientAnimation>
           )}
