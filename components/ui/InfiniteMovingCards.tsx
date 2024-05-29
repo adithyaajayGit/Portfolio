@@ -73,7 +73,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  w-screen overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
@@ -93,25 +93,30 @@ export const InfiniteMovingCards = ({
               backgroundColor:
                 "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 26%, rgba(0,212,255,1) 100%)",
             }}
-            key={item.name}
+            key={idx}
           >
             <blockquote>
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
+              <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white  font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.name}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
-                </span>
+                <div className="flex flex-col gap-1">
+                    <span className="flex flex-col gap-1">
+                        <div className="me-3">
+                            <img src="/profile.svg" alt="profile" />
+                        </div>
+                      <span className=" text-xl leading-[1.6] text-white font-bold">
+                        {item.name}
+                      </span>
+                      <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+                        {item.title}
+                      </span>
+                    </span>
+                </div>
               </div>
             </blockquote>
           </li>
