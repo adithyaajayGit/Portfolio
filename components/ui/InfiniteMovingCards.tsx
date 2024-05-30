@@ -89,7 +89,7 @@ export const InfiniteMovingCards = ({
           <li
             className="w-[90vw] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
             style={{
-                background: 'rgb(4,7,29)',
+              background: 'rgb(4,7,29)',
               backgroundColor:
                 "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(93,108,111,1) 26%, rgba(0,212,255,1) 100%)",
             }}
@@ -105,17 +105,25 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <div className="flex flex-col gap-1">
-                    <span className="flex flex-col gap-1">
-                        <div className="me-3">
-                            <img src="/profile.svg" alt="profile" />
-                        </div>
-                      <span className=" text-xl leading-[1.6] text-white font-bold">
-                        {item.name}
-                      </span>
-                      <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                        {item.title}
-                      </span>
+                  <span className="flex flex-col gap-1">
+                    <div className="me-3">
+                      <img src="/ibm.png" alt="profile" width="100px" />
+                    </div>
+                    <span className=" text-xl leading-[1.6] text-white font-bold">
+                      {item.name}
                     </span>
+                    <span className="text-sm leading-[1.6] text-white-200 font-normal">
+                      <a
+                        href={item.title}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white  hover:text-blue-300 transition-colors duration-300"
+                        style={{ textDecorationThickness: '0.15em' }} // Adjust the underline thickness
+                      >
+                        View Credential here
+                      </a>
+                    </span>
+                  </span>
                 </div>
               </div>
             </blockquote>

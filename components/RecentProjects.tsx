@@ -1,8 +1,5 @@
 import { projects } from '@/data'
-import { describe } from 'node:test'
-import { title } from 'process'
 import React from 'react'
-import { div } from 'three/examples/jsm/nodes/Nodes.js'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
@@ -48,10 +45,15 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <a
+                    href={link} // Link to GitHub repository
+                    target="_blank" // Open in a new tab
+                    rel="noopener noreferrer" // Security best practice
+                    className="flex lg:text-xl md:text-xs text-sm text-purple items-center"
+                  >
+                    GitHub Link
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </a>
                 </div>
               </div>
             </PinContainer>

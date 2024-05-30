@@ -72,7 +72,7 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "Men's Fashion Store",
+      title: "Male Fashion",
       des: "A Fashion store website for men's fashion collections with Admin Panel and attractive user interface",
       img: "/mensfashionstore.png",
       iconLists: ["/Angular.png", "/js.png", "/express-js.png", "/Nodejs.png", "/mysql.png"],
@@ -80,61 +80,54 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Shopsy - E-Commerce App",
+      des: " A dynamic e-commerce web application With an admin Panel and attractive user interface with Razorpay online payment integration",
+      img: "/Shopsy.png",
+      iconLists: ["/Nodejs.png", "/express-js.png", "mongodb.png", "handlebars.png", "js.png"],
+      link: "https://github.com/adithyaajayGit/Shopsy-Ecommerce.git",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      title: "OLX-Clone",
+      des: "An OLX Clone developed using React and and Firebase. ",
+      img: "/OLX.png",
+      iconLists: ["/re.svg", "/firebase.png", "/js.png"],
+      link: "https://github.com/adithyaajayGit/OLX-CLONE.git",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      title: "Netflix Clone",
+      des: "A Netflix Clone Homepage Website developed using React and REST API. ",
+      img: "/Netflix.png",
+      iconLists: ["/re.svg", "js.png", "Api.png"],
+      link: "https://github.com/adithyaajayGit/NetflixClone.git",
     },
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        " An online certification course on `Developing Front-End Apps with React` (6-week course authorized by IBM and sponsored by Coursera)",
+      name: "Developing Front-End Apps with React",
+      title: "https://coursera.org/share/02bdf737ca2e98063f9a959997c681a4",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        " An online certification course on `Developing Back-End Apps with Node.js and Express`(6-week course authorized by IBM and sponsored by Coursera)",
+      name: "Developing Back-End Apps with Node.js and Express",
+      title: "https://coursera.org/share/ce22d3d61812e4ccd9657a9561e7069f",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote:"An online certification course on `Getting Started with Git and GitHub` (3-week course authorized by IBM and sponsored by Coursera)",
+      name: "Getting Started with Git and GitHub",
+      title: "https://coursera.org/share/2246baaafb4fb3a42efa2190b183a5af",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote: " An online certification course on `Web Development with HTML, CSS, JavaScript` (5-week course authorized by IBM and sponsored by Coursera)",
+      name: "Web Development with HTML, CSS, JavaScript",
+      title: "https://coursera.org/share/394e88030e29823c104b39d3a912f1bf",
     },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
+
   ];
   
   export const companies = [
