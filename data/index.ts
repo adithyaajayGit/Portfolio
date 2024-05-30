@@ -8,7 +8,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication",
+      title: "Embracing Full Stack Development with the MERN Stack",
       description: "",
       className: "col-span-2 row-span-2",
       imgClassName: "w-full h-full",
@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
+      title: "Seamless Communication",
+      description: "Clear and efficient communication for successful collaboration",
       className: "col-span-1 row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -48,8 +48,8 @@ export const navItems = [
     },
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Concentrated in building MERN stack applications",
+      description: "",
       className: "col-span-1 row-span-1",
       imgClassName: "absolute right-0 bottom-0 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Men's Fashion Store",
+      des: "A Fashion store website for men's fashion collections with Admin Panel and attractive user interface",
+      img: "/mensfashionstore.png",
+      iconLists: ["/Angular.png", "/js.png", "/express-js.png", "/Nodejs.png", "/mysql.png"],
+      link: "https://github.com/adithyaajayGit/Mens-Fashion-Store.git",
     },
     {
       id: 2,

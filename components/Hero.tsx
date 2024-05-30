@@ -3,8 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './ui/Magic Button'
 import { FaLocationArrow } from 'react-icons/fa'
-
-
+import { FaDownload } from 'react-icons/fa' // Import the download icon
 
 const Hero = () => {
     return (
@@ -24,18 +23,27 @@ const Hero = () => {
                 </p>
                 <TextGenerateEffect
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                words=" Hi my name is Adithya Ajay   MEARN Stack Developer "
+                words="  Hi welcome, I&apos;m Adithya Ajay  MERN Stack Developer "
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                    Hi, I&apos;m Adithya Ajay, a MERN Stack Developer based in kerala
+                I&apos;m  a MERN Stack Developer based in Kerala. I specialize in building scalable and robust web applications.
                 </p>
-                <a href="#about">
-                    <MagicButton
-                    title="My Projects"
-                    icon={<FaLocationArrow/>}
-                    position='right'
-                    />
-                </a>
+                <div className="flex flex-col md:flex-row items-center gap-4">
+                    <a href="#projects">
+                        <MagicButton
+                        title="My Projects"
+                        icon={<FaLocationArrow />}
+                        position='right'
+                        />
+                    </a>
+                    <a href="/Adithya_Ajay(resume).pdf" download>
+                        <MagicButton
+                        title="Download CV"
+                        icon={<FaDownload />}
+                        position='right'
+                        />
+                    </a>
+                </div>
                 </div>
             </div>
             </div>
