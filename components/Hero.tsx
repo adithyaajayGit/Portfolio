@@ -23,10 +23,10 @@ const Hero = () => {
                 </p>
                 <TextGenerateEffect
                 className="text-center text-[40px] md:text-5xl lg:text-6xl"
-                words="  Hi welcome, I&apos;m Adithya Ajay  MERN Stack Developer "
+                words="  Hi Welcome I&apos;m Adithya Ajay  MERN Stack Developer "
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                I&apos;m  a MERN Stack Developer based in Kerala. I specialize in building scalable and robust web applications.
+                I&apos;m  a MERN Stack Developer based in Kerala, India. I specialize in building scalable and robust web applications.
                 </p>
                 <div className="flex flex-col md:flex-row items-center gap-4">
                     <a href="#projects">
