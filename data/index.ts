@@ -82,7 +82,7 @@ export const navItems = [
       id: 2,
       title: "Shopsy - E-Commerce App",
       des: " A dynamic e-commerce web application With an admin Panel and attractive user interface with Razorpay online payment integration",
-      img: "/Shopsy.png",
+      img: "/Shopnsy.png",
       iconLists: ["/Nodejs.png", "/express-js.png", "mongodb.png", "handlebars.png", "js.png"],
       link: "https://github.com/adithyaajayGit/Shopsy-Ecommerce.git",
     },
