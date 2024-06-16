@@ -17,7 +17,7 @@ export const navItems = [
       spareImg: "",
     },
     {
-      id: 2,
+      id: 2, 
       title: "Seamless Communication",
       description: "Clear and efficient communication for successful collaboration",
       className: "col-span-1 row-span-1",
