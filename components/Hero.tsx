@@ -26,7 +26,7 @@ const Hero = () => {
                 words="  Hi Welcome I&apos;m Adithya Ajay  Full Stack Developer "
                 />
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                I&apos;m  a MERN Stack Developer based in Kerala, India. I specialize in building scalable and robust web applications.
+                I&apos;m  a Full Stack Developer based in Kerala, India. I specialize in building scalable and robust web applications.
                 </p>
                 <div className="flex flex-col md:flex-row items-center gap-4">
                     <a href="#projects">
